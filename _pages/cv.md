@@ -14,14 +14,15 @@ Profiles
 * [Google Scholar](https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao)
 <!-- * [ORCID](http://orcid.org/yourorcidurl) -->
 * [GitHub](https://github.com/Aouidate)
+* [ReasearchGate](https://www.researchgate.net/profile/Adnane-Aouidate?ev=hdr_xprf)
 
 Education
 ======
 * Ph.D in Chemistry, UMI University, 2019  
   New bioactive organic molecules related to inhibition of protein kinases using 3D-QSAR, Molecular docking and ADMET
-* M.S. in Chemistry, UMI University, 2012–2014  
+* M.S. in Chemistry, UMI University, 2012-2014  
   Molecular Chemistry and Natural Products
-* B.S. in Chemistry, UMI University, 2009–2012  
+* B.S. in Chemistry, UMI University, 2009-2012  
   Organic Chemistry
 
 Skills
@@ -34,7 +35,7 @@ Skills
 * Database preparation for virtual screening  
 * In silico ADMET assessment  
 * Experience with Schrödinger Suite, Gaussian09, MOE, Material Studio, Autodock, Gromacs, KNIME, DataWarrior, Rdkit, deepchem  
-* Programming: Python (Data Science), Streamlit, git, Jupyter notebook  
+* Programming: Python (Data Science), Streamlit, git, Jupyter notebook, Docker, Django, Singularity
 * Operating systems: Linux and Windows  
 
 Languages
@@ -67,7 +68,3 @@ Teaching
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
-
-<!-- Service and leadership -->
-======
-<!-- * Currently signed in to 43 different Slack teams -->
