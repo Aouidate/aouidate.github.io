@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
+    "name": "Adnane",
     "email": "none@example.org",
     "phone": "",
     "website": "https://academicpages.github.io",
@@ -16,7 +16,7 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao"
       },
       {
         "network": "ORCID",
@@ -25,128 +25,134 @@
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Aouidate",
+        "url": "https://github.com/Aouidate"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "UMI University",
+      "area": "Ph.D in Chemistry",
+      "studyType": "Newbioactive organic molecules related to the inhibition of protein kinases. using 3DQSAR, Molecular docking and ADMET",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
+      "institution": "UMI University",
+      "area": "M.S. in Chemistry",
+      "studyType": "Molecular Chemsitry and Natrual Products",
+      "startDate": "2012",
       "endDate": "2014",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
+      "institution": "UMI University",
+      "area": "B.S. in Chemisty",
+      "studyType": "Organic Chemsitry",
+      "startDate": "2009",
       "endDate": "2012",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": ["Structure-based drug design (SBDD): Molecular Docking, Virtual Screening, Molecular dynamics, Homology Modeling, Ligand-based drug design (LBDD): Pharmacophore modeling, 2D and 3D QSAR
+            (CoMFA, CoMSIA).",
+            "Demonstrated proficiency in working with chemical databases: Effectively retrieving and managing relevant chemical information to support research goals.",
+            "Workflows and Pipelines: Automation of cheminformatics and machine learning workflows with KNIME software.", 
+            "Machine learning: Research & Develop Machine learning models for drug discovery,Risk assessment and toxicology.",
+            "Database preparation for virtual screening: Maintenance of in-house and vendor database molecules for virtual screening.",
+            "in silico ADMET assessment.",
+            "Experience with most of the open source tools and industry standard CADD and computational chemistry software packages: Schrödinger Suite, Gaussian09, MOE,",
+            "Material Studio, Autodock, Gromacs, KNIME, DataWarrior, Rdkit, deepchem.
+              • Programing skills: Python for Data Science, Streamlit, git, jupyter notebook.
+              • Operating system: Linux and Windows"],
+  "languages": ["Arabic : Fluent",
+                "French: Fluent",
+                "Englsih : Fluent"
+                "Spanish:Elementary"],
+  "interests": ["Running", "Traveling" "Data science"],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Exploring the chemical space of BRAF Inhibitors: A cheminformatic and Machine learning analysis",
+      "publisher": "Journal of Molecular Liquids",
+      "releaseDate": "2024-05-01",
+      "website": "https://www.sciencedirect.com/science/article/pii/S016773222400761X",
+      "summary": "This study systematically analyzed and modeled 3,952 BRAF kinase inhibitors using cheminformatics and machine learning to reveal chemical space, scaffold diversity, and structure–activity relationships, identifying key scaffolds and activity cliff molecules to guide the design of more effective BRAF inhibitors against melanoma with acquired resistance."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Supervised Machine learning and Molecular docking modeling to Identify Potential Anti-Parkinson’s Agents",
+      "publisher": "Journal of Molecular Graphics and Modelling",
+      "releaseDate": "2025-05-09",
+      "website": "https://www.sciencedirect.com/science/article/pii/S1093326325001330",
+      "summary": "This study used CHEMBL data to build and evaluate machine learning models with different descriptors, identifying the XGBoost model with RDkit features as the best for predicting adenosine A2A receptor inhibitors, supported by molecular docking, to aid in discovering new Anti-Parkinson's agents."
     },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      {
+      "name": "Identification of a novel dual-target scaffold for 3CLpro and RdRp proteins of SARS-CoV-2 using 3D-similarity search, molecular docking, molecular dynamic and ADMET evaluation",
+      "publisher": "Journal of Biomolecular Structure & Dynamics",
+      "releaseDate": "2020-05-14",
+      "website": "https://www.tandfonline.com/doi/full/10.1080/07391102.2020.1779130",
+      "summary": "Using computational screening and molecular dynamics, we identified three promising compounds targeting SARS-CoV-2’s main protease and polymerase as potential dual inhibitors to combat COVID-19."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "Introduction to KNIME for Cheminformatics: Molecular Fingerprints, Machine Learning, and Pipeline Creation",
+      "event": "NyBerMan Bioinformatics",
+      "date": "2023-04-25",
+      "location": "Online Workshop",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
+      "name": "Identification of New Small Molecules Antiviral Agents as Protein-Protein Inhibitors of the ACE2 : Coronavirus Spike Interactions to Prevent the Entry of SARS-CoV-2 to the host Cell",
+      "event": "GGMM and SFCi Congres, Lilliade, Lile University, France",
+      "date": "2021-09-30",
+      "location": "Lile, France",
       "description": ""
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Identification of a novel dual-target scaffold for 3CLpro and RdRp proteins of SARS-CoV-2 using 3D-similarity search, molecular docking, molecular dynamic and ADMET evaluation",
+      "event": "UMI Meknès, Morocco",
+      "date": "2020-07-03",
+      "location": "Meknès, Morocco",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
+      "course": "Organic Chemsitry",
+      "institution": "University of Ibn Zohr, Chemsitry Department",
+      "date": "2022-01-01",
       "role": "Undergraduate course",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
+      "course": "Chemical Bonding",
+      "institution": "Faculty of Applied Sciences, Ait-Melloul, Chemistry Department",
+      "date": "2022-01-01",
       "role": "Workshop",
-      "description": ""
+      "description": "Undergraduate course"
     }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+        {
+      "course": "Cheminformatics In KNIME",
+      "institution": "NyBerMan Bioinformatics",
+      "date": "2023-09-14",
+      "role": "Workshop",
+      "description": "I delivered a talk introducing KNIME as a powerful tool for data analysis, explained molecular fingerprints and descriptors along with their associated file formats, and demonstrated fundamental machine learning concepts. Additionally, I guided participants through the process of building machine learning models and creating automated pipelines using KNIME."
     }
-  ]
+  // ],
+  // "portfolio": [
+  //   {
+  //     "name": "Portfolio item number 1",
+  //     "category": "portfolio",
+  //     "date": "",
+  //     "url": "",
+  //     "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+  //   }
+  // ]
 }
