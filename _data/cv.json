@@ -145,7 +145,7 @@
       "role": "Workshop",
       "description": "I delivered a talk introducing KNIME as a powerful tool for data analysis, explained molecular fingerprints and descriptors along with their associated file formats, and demonstrated fundamental machine learning concepts. Additionally, I guided participants through the process of building machine learning models and creating automated pipelines using KNIME."
     }
-  // ],
+  ],
   // "portfolio": [
   //   {
   //     "name": "Portfolio item number 1",
