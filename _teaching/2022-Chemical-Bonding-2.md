@@ -1,5 +1,5 @@
 ---
-title: "Chemical Bonding"
+title: "Chemical Bonding for undergraduate students of Physical and Chemical Sciences"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2022-Chemical-Bonding-2
