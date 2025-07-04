@@ -12,13 +12,13 @@ redirect_from:
 Profiles
 ======
 * [Google Scholar](https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao)
-* [ORCID](http://orcid.org/yourorcidurl)
+<!-- * [ORCID](http://orcid.org/yourorcidurl) -->
 * [GitHub](https://github.com/Aouidate)
 
 Education
 ======
 * Ph.D in Chemistry, UMI University, 2019  
-  New bioactive organic molecules related to inhibition of protein kinases using 3DQSAR, Molecular docking and ADMET
+  New bioactive organic molecules related to inhibition of protein kinases using 3D-QSAR, Molecular docking and ADMET
 * M.S. in Chemistry, UMI University, 2012–2014  
   Molecular Chemistry and Natural Products
 * B.S. in Chemistry, UMI University, 2009–2012  
@@ -39,8 +39,8 @@ Skills
 
 Languages
 ======
-* Arabic: Fluent  
-* French: Fluent  
+* Arabic : Fluent  
+* French : Fluent  
 * English: Fluent  
 * Spanish: Elementary  
 

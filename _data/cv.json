@@ -19,16 +19,16 @@
   "work": [],
   "education": [
     {
-      "institution": "UMI University",
+      "institution": "School of Sciences, Moulay Ismail University, Meknes, Morocco",
       "area": "Ph.D in Chemistry",
-      "studyType": "New bioactive organic molecules related to the inhibition of protein kinases using 3DQSAR, Molecular docking and ADMET",
+      "studyType": "**New bioactive organic molecules related to the inhibition of protein kinases using 3D-QSAR, Molecular docking and ADMET**",
       "startDate": "",
       "endDate": "2019",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "UMI University",
+      "institution": "School of Sciences, Moulay Ismail University, Meknes, Morocco",
       "area": "M.S. in Chemistry",
       "studyType": "Molecular Chemistry and Natural Products",
       "startDate": "2012",
@@ -37,7 +37,7 @@
       "courses": []
     },
     {
-      "institution": "UMI University",
+      "institution": "School of Sciences, Moulay Ismail University, Meknes, Morocco",
       "area": "B.S. in Chemistry",
       "studyType": "Organic Chemistry",
       "startDate": "2009",
@@ -47,19 +47,20 @@
     }
   ],
   "skills": [
-    "Structure-based drug design (SBDD): Molecular Docking, Virtual Screening, Molecular dynamics, Homology Modeling, Ligand-based drug design (LBDD): Pharmacophore modeling, 2D and 3D QSAR (CoMFA, CoMSIA).",
-    "Demonstrated proficiency in working with chemical databases: Effectively retrieving and managing relevant chemical information to support research goals.",
-    "Workflows and Pipelines: Automation of cheminformatics and machine learning workflows with KNIME software.",
-    "Machine learning: Research & Develop Machine learning models for drug discovery, Risk assessment and toxicology.",
-    "Database preparation for virtual screening: Maintenance of in-house and vendor database molecules for virtual screening.",
-    "In silico ADMET assessment.",
-    "Experience with most of the open source tools and industry standard CADD and computational chemistry software packages: Schrödinger Suite, Gaussian09, MOE, Material Studio, Autodock, Gromacs, KNIME, DataWarrior, Rdkit, deepchem.",
-    "Programming skills: Python for Data Science, Streamlit, git, jupyter notebook.",
-    "Operating system: Linux and Windows"
+    "**Structure-based drug design (SBDD)**: Molecular Docking, Virtual Screening, Molecular dynamics, Homology Modeling", 
+    "**Ligand-based drug design (LBDD)**: Pharmacophore modeling, 2D and 3D QSAR (CoMFA, CoMSIA).",
+    "**Demonstrated proficiency in working with chemical databases**: Effectively retrieving and managing relevant chemical information to support research goals.",
+    "**Workflows and Pipelines**: Automation of cheminformatics and machine learning workflows with KNIME software.",
+    "**Machine learning**: Research & Develop Machine learning models for drug discovery, Risk assessment and toxicology.",
+    "**Database preparation for virtual screening**: Maintenance of in-house and vendor database molecules for virtual screening.",
+    "**In silico ADMET assessment.**",
+    "**Experience with most of the open source tools and industry standard CADD and computational chemistry software packages**: Schrödinger Suite, Gaussian09, MOE, Material Studio, Autodock, Gromacs, KNIME, DataWarrior, Rdkit, deepchem.",
+    "**Programming skills**: Python for Data Science, Streamlit, git, jupyter notebook, Docker, Singularity, Django",
+    "**Operating system**: Linux and Windows"
   ],
   "languages": [
-    "Arabic: Fluent",
-    "French: Fluent",
+    "Arabic : Fluent",
+    "French : Fluent",
     "English: Fluent",
     "Spanish: Elementary"
   ],
