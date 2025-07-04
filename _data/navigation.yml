@@ -9,7 +9,7 @@
 
 main:
   - title: "Publications"
-    url: /https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao/
+    url: https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao
 
   - title: "Talks"
     url: /talks/    
@@ -23,12 +23,12 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /cv/
     #url: /files/resume.pdf
     
-  - title: "CV"
-    url: /cv.json/
+  # - title: "CV"
+  #   url: /cv.json/
     
   # - title: "Guide"
   #   url: /markdown/
