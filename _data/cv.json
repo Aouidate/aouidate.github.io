@@ -1,41 +1,27 @@
 {
-  "basics": {
-    "name": "Adnane",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+  "profiles": [
+    {
+      "network": "Google Scholar",
+      "username": "",
+      "url": "https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao"
     },
-    "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "Aouidate",
-        "url": "https://github.com/Aouidate"
-      }
-    ]
-  },
+    {
+      "network": "ORCID",
+      "username": "",
+      "url": "http://orcid.org/yourorcidurl"
+    },
+    {
+      "network": "GitHub",
+      "username": "Aouidate",
+      "url": "https://github.com/Aouidate"
+    }
+  ],
   "work": [],
   "education": [
     {
       "institution": "UMI University",
       "area": "Ph.D in Chemistry",
-      "studyType": "Newbioactive organic molecules related to the inhibition of protein kinases. using 3DQSAR, Molecular docking and ADMET",
+      "studyType": "New bioactive organic molecules related to the inhibition of protein kinases using 3DQSAR, Molecular docking and ADMET",
       "startDate": "",
       "endDate": "2019",
       "gpa": null,
@@ -44,7 +30,7 @@
     {
       "institution": "UMI University",
       "area": "M.S. in Chemistry",
-      "studyType": "Molecular Chemsitry and Natrual Products",
+      "studyType": "Molecular Chemistry and Natural Products",
       "startDate": "2012",
       "endDate": "2014",
       "gpa": null,
@@ -52,30 +38,32 @@
     },
     {
       "institution": "UMI University",
-      "area": "B.S. in Chemisty",
-      "studyType": "Organic Chemsitry",
+      "area": "B.S. in Chemistry",
+      "studyType": "Organic Chemistry",
       "startDate": "2009",
       "endDate": "2012",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": ["Structure-based drug design (SBDD): Molecular Docking, Virtual Screening, Molecular dynamics, Homology Modeling, Ligand-based drug design (LBDD): Pharmacophore modeling, 2D and 3D QSAR
-            (CoMFA, CoMSIA).",
-            "Demonstrated proficiency in working with chemical databases: Effectively retrieving and managing relevant chemical information to support research goals.",
-            "Workflows and Pipelines: Automation of cheminformatics and machine learning workflows with KNIME software.", 
-            "Machine learning: Research & Develop Machine learning models for drug discovery,Risk assessment and toxicology.",
-            "Database preparation for virtual screening: Maintenance of in-house and vendor database molecules for virtual screening.",
-            "in silico ADMET assessment.",
-            "Experience with most of the open source tools and industry standard CADD and computational chemistry software packages: Schrödinger Suite, Gaussian09, MOE,",
-            "Material Studio, Autodock, Gromacs, KNIME, DataWarrior, Rdkit, deepchem.
-              • Programing skills: Python for Data Science, Streamlit, git, jupyter notebook.
-              • Operating system: Linux and Windows"],
-  "languages": ["Arabic : Fluent",
-                "French: Fluent",
-                "Englsih : Fluent",
-                "Spanish : Elementary"],
-  "interests": ["Running", "Traveling","Data science"],
+  "skills": [
+    "Structure-based drug design (SBDD): Molecular Docking, Virtual Screening, Molecular dynamics, Homology Modeling, Ligand-based drug design (LBDD): Pharmacophore modeling, 2D and 3D QSAR (CoMFA, CoMSIA).",
+    "Demonstrated proficiency in working with chemical databases: Effectively retrieving and managing relevant chemical information to support research goals.",
+    "Workflows and Pipelines: Automation of cheminformatics and machine learning workflows with KNIME software.",
+    "Machine learning: Research & Develop Machine learning models for drug discovery, Risk assessment and toxicology.",
+    "Database preparation for virtual screening: Maintenance of in-house and vendor database molecules for virtual screening.",
+    "In silico ADMET assessment.",
+    "Experience with most of the open source tools and industry standard CADD and computational chemistry software packages: Schrödinger Suite, Gaussian09, MOE, Material Studio, Autodock, Gromacs, KNIME, DataWarrior, Rdkit, deepchem.",
+    "Programming skills: Python for Data Science, Streamlit, git, jupyter notebook.",
+    "Operating system: Linux and Windows"
+  ],
+  "languages": [
+    "Arabic: Fluent",
+    "French: Fluent",
+    "English: Fluent",
+    "Spanish: Elementary"
+  ],
+  "interests": ["Running", "Traveling", "Data science"],
   "references": [],
   "publications": [
     {
@@ -92,7 +80,7 @@
       "website": "https://www.sciencedirect.com/science/article/pii/S1093326325001330",
       "summary": "This study used CHEMBL data to build and evaluate machine learning models with different descriptors, identifying the XGBoost model with RDkit features as the best for predicting adenosine A2A receptor inhibitors, supported by molecular docking, to aid in discovering new Anti-Parkinson's agents."
     },
-      {
+    {
       "name": "Identification of a novel dual-target scaffold for 3CLpro and RdRp proteins of SARS-CoV-2 using 3D-similarity search, molecular docking, molecular dynamic and ADMET evaluation",
       "publisher": "Journal of Biomolecular Structure & Dynamics",
       "releaseDate": "2020-05-14",
@@ -110,9 +98,9 @@
     },
     {
       "name": "Identification of New Small Molecules Antiviral Agents as Protein-Protein Inhibitors of the ACE2 : Coronavirus Spike Interactions to Prevent the Entry of SARS-CoV-2 to the host Cell",
-      "event": "GGMM and SFCi Congres, Lilliade, Lile University, France",
+      "event": "GGMM and SFCi Congress, Lilliade, Lille University, France",
       "date": "2021-09-30",
-      "location": "Lile, France",
+      "location": "Lille, France",
       "description": ""
     },
     {
@@ -125,8 +113,8 @@
   ],
   "teaching": [
     {
-      "course": "Organic Chemsitry",
-      "institution": "University of Ibn Zohr, Chemsitry Department",
+      "course": "Organic Chemistry",
+      "institution": "University of Ibn Zohr, Chemistry Department",
       "date": "2022-01-01",
       "role": "Undergraduate course",
       "description": ""
@@ -138,7 +126,7 @@
       "role": "Workshop",
       "description": "Undergraduate course"
     },
-        {
+    {
       "course": "Cheminformatics In KNIME",
       "institution": "NyBerMan Bioinformatics",
       "date": "2023-09-14",
@@ -146,13 +134,4 @@
       "description": "I delivered a talk introducing KNIME as a powerful tool for data analysis, explained molecular fingerprints and descriptors along with their associated file formats, and demonstrated fundamental machine learning concepts. Additionally, I guided participants through the process of building machine learning models and creating automated pipelines using KNIME."
     }
   ]
-  // "portfolio": [
-  //   {
-  //     "name": "Portfolio item number 1",
-  //     "category": "portfolio",
-  //     "date": "",
-  //     "url": "",
-  //     "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-  //   }
-  // ]
 }
