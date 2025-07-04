@@ -1,9 +1,9 @@
 ---
 title: "Chemical Bonding for undergraduate students of Physical and Chemical Sciences"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate course"
 permalink: /teaching/2022-Chemical-Bonding-2
-venue: "Faculty of Applied Sciences, Ait-Melloul, Chemistry Department"
+venue: "School of Applied Sciences, Ait-Melloul, Chemistry Department"
 date: 2022-02-01
 location: "Agadir, Morocco"
 ---

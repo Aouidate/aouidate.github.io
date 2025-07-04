@@ -18,7 +18,7 @@ redirect_from:
 # Experience
 ## Assistant Professor (Computational Chemist)  
 *School of Applied Sciences of Ait Melloul, Ibn Zohr University, Agadir, Morocco*  
-01/2023 – Present  
+01/2023 - Present  
 - Developed web applications for chemoinformatics tools using Streamlit & Django  
 - Explored chemical space of BRAF inhibitors through cheminformatics and AI  
 - Supervised PhD students working on ADMET predictions using ML and DL-based QSAR models  
@@ -27,7 +27,7 @@ redirect_from:
 
 ## Postdoctoral Researcher (Chemoinformatics)  
 *Structural Bioinformatic & Chemoinformatic Team, ICOA, Orleans, France*  
-01/2021 – 12/2022  
+01/2021 - 12/2022  
 - Encoded ACE2/SARS-CoV-2 interactions as fingerprints using RDKit and ODDT  
 - Developed methods to dock and score protein-protein interaction inhibitors using Tanimoto coefficient and SPLIF-score  
 - Conducted molecular dynamics simulations of protein-ligand complexes  
@@ -35,7 +35,7 @@ redirect_from:
 
 ## Postdoctoral Researcher (Computational Chemist)  
 *CADD Center, SIAT, Shenzhen, China*  
-2019 – 2020  
+2019 - 2020  
 - Automated AI-based drug discovery workflows with KNIME to accelerate R&D  
 - Generated large chemical libraries and performed scaffold hopping  
 - Predicted molecular properties and biological activities of small molecules  
