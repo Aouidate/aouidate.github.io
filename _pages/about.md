@@ -22,7 +22,7 @@ I’m open to collaborating on scientific research projects focused on discoveri
 
 ### 🚀 Projects & Blog  
 This blog is where I share my latest insights, tutorials, and updates related to cheminformatics, computational chemistry, and machine learning.  
-You can also explore my personal Streamlit multi-web apps for cheminformatics [here](https://github.com/Aouidate).
+You can also explore my personal Streamlit multi-web apps for cheminformatics [here](https://chemoinfo.streamlit.app/) and my [GitHub](https://github.com/Aouidate)
 
 ### 💬 Expertise  
 Feel free to ask me anything about computational chemistry, cheminformatics, or computer-aided drug discovery.
