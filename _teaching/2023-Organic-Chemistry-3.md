@@ -1,5 +1,5 @@
 ---
-title: "Organich Chemistry"
+title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-Chemical-Bonding-2
