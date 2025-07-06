@@ -1,7 +1,7 @@
 ---
-title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences (BCG program)"
+title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences"
 collection: teaching
-type: "Undergraduate course"
+type: "BCG Undergraduate course"
 permalink: /teaching/2023-Chemical-Bonding-2
 venue: "School of Applied Sciences, Ait-Melloul, Chemistry Department"
 date: 2023-02-01

@@ -1,7 +1,7 @@
 ---
-title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences (PC program)"
+title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences"
 collection: teaching
-type: "Undergraduate course"
+type: "PC Undergraduate course"
 permalink: /teaching/2023-Chemical-Bonding-2
 venue: "School of Applied Sciences, Ait-Melloul, Chemistry Department"
 date: 2023-09-01
