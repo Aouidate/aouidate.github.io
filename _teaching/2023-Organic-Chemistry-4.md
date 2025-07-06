@@ -1,14 +1,14 @@
 ---
-title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences (PC program)"
+title: "Organic Chemistry for undergraduate students of Physical and Chemical Sciences (BCG program)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023-Chemical-Bonding-2
 venue: "School of Applied Sciences, Ait-Melloul, Chemistry Department"
-date: 2023-09-01
+date: 2023-02-01
 location: "Agadir, Morocco"
 ---
 
-I delivered a course about organic chemistry principles to the students of Physical and Chemical Sciences (Fall Semester), including the study of carbon-based compounds, their structures, functional groups, and systematic naming conventions. Experienced with the fundamentals of hydrocarbons, particularly alkanes, and the differentiation between organic and inorganic carbon compounds.
+I delivered a course on organic chemistry principles to students of Biology, Chemistry, and Geology (Spring Semester), covering the study of carbon-based compounds, their structures, functional groups, and systematic naming conventions. The course included fundamentals of hydrocarbons, particularly alkanes, and the distinction between organic and inorganic carbon compounds.
 
 Introduction to Organic Chemistry
 ======
