@@ -293,9 +293,13 @@ defaults:
       path: ""
       type: tutorials
     values:
-      layout: tutorial
+      layout: single
       author_profile: true
+      read_time: true
+      comments: true
       share: true
+      related: true
+
   
 
 # Sass/SCSS
