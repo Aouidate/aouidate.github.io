@@ -124,7 +124,8 @@ print(f"MinHashed Atom-Pair Fingerprint Chiral similarity: {sim_jac:.3f}")
 ```
 So the output will be something like this:
 
-```Similarity between R- and S-limonene:
+```
+Similarity between R- and S-limonene:
 
 Morgan fingerprint similarity: 0.714
 
@@ -135,6 +136,5 @@ MACCS fingerprint similarity: 1.000
 Topological Torsion fingerprint similarity: 1.000
 
 MinHashed Atom-Pair Fingerprint Chiral similarity: 0.879
-
 ```
 
