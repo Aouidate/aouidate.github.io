@@ -15,7 +15,10 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "Tutorials"
+    url: /teaching/     
     
   # - title: "Portfolio"
   #   url: /portfolio/

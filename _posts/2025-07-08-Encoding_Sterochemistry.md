@@ -78,4 +78,5 @@ s_fp = rdMolDescriptors.GetMorganFingerprintAsBitVect(s_thalidomide, radius=2, n
 
 # Visualize fingerprints
 Draw.MolToImage(r_thalidomide), Draw.MolToImage(s_thalidomide)
-  
+
+  ```
