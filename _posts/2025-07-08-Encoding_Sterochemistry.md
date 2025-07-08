@@ -138,3 +138,4 @@ Topological Torsion fingerprint similarity: 1.000
 MinHashed Atom-Pair Fingerprint Chiral similarity: 0.879
 ```
 
+As we can see from the similarity scores, the Morgan fingerprint is able to capture some of the stereochemical differences between the two enantiomers, while the RDKit, MACCS and Topological Torsion fingerprints are not. However, the MapFps fingerprint, which is specifically designed to capture stereochemical information, shows a high similarity score of 0.879, indicating that it can effectively distinguish between the two enantiomers. This demonstrates the importance of using appropriate fingerprint types that can capture stereochemical differences for accurate QSAR modeling. and even without the need to generate 3D conformers, which can be computationally expensive and time-consuming.
