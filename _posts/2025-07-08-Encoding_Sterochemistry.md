@@ -20,7 +20,7 @@ Stereochemistry - the 3D spatial arrangement of atoms in a molecule - often play
 
 A well-known example is **thalidomide**, which was withdrawn from the market in 1961. Its R-enantiomer acted as a sedative, while the S-enantiomer caused severe birth defects. Imagine a classroom of 30 students and a key that opens the door to their study room. I, as the professor, make 30 copies of the key: 15 are exact copies (R-enantiomers) and 15 are mirror images (S-enantiomers). I randomly hand out these keys to the students. Only the 15 students with the exact copies can open the door and enter, while the other 15 cannot. However, these mirror-image keys might accidentally open other doors — unknown to us — and if so, may cause damage. This metaphor illustrates how the S-enantiomer of thalidomide interacts with proteins unrelated to its intended target, leading to harmful effects.
 
-[img src="/images/Encoding_Sterochemistry/Thalidomide.png" alt="Thalidomide enantiomers" width="600px" height="400px" class="img-fluid rounded mx-auto d-block mb-4" loading="lazy">]
+[img src="/images/Encoding_Sterochemistry/thalidomide.png" alt="Thalidomide enantiomers" width="600px" height="400px" class="img-fluid rounded mx-auto d-block mb-4" loading="lazy">]
 
 Another example is **limonene**: the R-enantiomer smells like orange, whereas its mirror image, the S-enantiomer, has a lemon-like scent. These stark differences highlight why accurately capturing stereochemical information in QSAR models is essential for reliably predicting biological activity and designing safer, more effective drugs.
 
