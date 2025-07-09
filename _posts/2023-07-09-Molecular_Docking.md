@@ -1,13 +1,11 @@
 ---
 title: "A Beginner’s Guide to Molecular Docking with Smina"
-collection: tutorials
-type: "Undergraduate course"
-permalink: /tutorials/2023-Molecular-Docking
-venue: "School of Applied Sciences, Ait-Melloul, Chemistry Department"
-date: 2023-07-18
-location: "Agadir, Morocco"
-author: Aouidate
-tags: [molecular docking, smina, computational chemistry, tutorial, undergraduate]
+date: 2025-07-09
+permalink: /posts/2025/08/Molecular_Docking/
+tags:
+  - molecular docking
+  - smina
+  - Drug Design
 ---
 
 **A Beginner’s Guide to Molecular Docking with Smina**  
