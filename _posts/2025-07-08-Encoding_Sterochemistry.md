@@ -28,7 +28,7 @@ QSAR/QSPR (Quantitative Structure-Activity/Property Relationship) modeling is a 
 
 Stereochemistry - the 3D spatial arrangement of atoms in a molecule - often plays a vital role in determining biological activity. Different stereoisomers, such as enantiomers or diastereomers, can interact very differently with biological targets, leading to significant variations in efficacy, potency, or toxicity.
 
-A well-known example is <b> thalidomide** </b>, which was withdrawn from the market in 1961. Its R-enantiomer acted as a sedative, while the S-enantiomer caused severe birth defects.
+A well-known example is <b> thalidomide </b>, which was withdrawn from the market in 1961. Its R-enantiomer acted as a sedative, while the S-enantiomer caused severe birth defects.
 
 Imagine a classroom of 30 students and a key that opens the door to their study room. I, as the professor, make 30 copies of the key: 15 are exact copies (R-enantiomers) and 15 are mirror images (S-enantiomers). I randomly hand out these keys to the students. Only the 15 students with the exact copies can open the door and enter, while the other 15 cannot. However, these mirror-image keys might accidentally open other doors - unknown to us - and if so, may cause damage.
 
@@ -54,9 +54,11 @@ Furthermore, integrating stereochemistry into descriptors or fingerprints in a w
 
 # Comparing Fingerprints of R- and S- Thalidomide to Detect Stereochemistry Differences
 
+<div style="text-align: justify;">
 To illustrate how different fingerprint types capture stereochemical differences, we will compare the R- and S-enantiomers of thalidomide using various molecular fingerprints. We will use RDKit, a powerful cheminformatics toolkit, to generate and visualize these fingerprints.
 
 Here we will import the necessary libraries and define the SMILES strings for the R- and S-enantiomers of thalidomide. and then generate the Rdkit molecular objects from these SMILES strings.
+</div>
 
 ```python
 from rdkit import Chem
@@ -72,7 +74,9 @@ smiles_S = "O=C(N1)CC[C@H](N2C(C3=CC=CC=C3C2=O)=O)C1=O"
 mol_R = Chem.MolFromSmiles(smiles_R)
 mol_S = Chem.MolFromSmiles(smiles_S)
 ```
-Th next we generate the fingerprints for both enantiomers using various fingerprint generators from RDKit. We will use the Morgan fingerprint (It is worth to note that it is important to use includeChirality=True), RDKit fingerprint, Topological Torsion fingerprint, MACCS keys, and MapFps (a chiral fingerprint generator). These fingerprints will help us understand how well each type captures the stereochemical differences between the two enantiomers.
+<div style="text-align: justify;">
+Next, we generate the fingerprints for both enantiomers using various fingerprint generators from RDKit. We will use the Morgan fingerprint (It is worth to note that it is important to use includeChirality=True), RDKit fingerprint, Topological Torsion fingerprint, MACCS keys, and MapFps (a chiral fingerprint generator). These fingerprints will help us understand how well each type captures the stereochemical differences between the two enantiomers.
+</div>
 
 ```python 
 
@@ -99,7 +103,10 @@ def get_fingerprints(mol):
 fps_R = get_fingerprints(mol_R)
 fps_S = get_fingerprints(mol_S)
 ```
+<div style="text-align: justify;">
 Once we have the fingerprints, we can check the similarity between the R- and S-enantiomers, which will help us understand how well each fingerprint type captures the stereochemical differences. If they capture it, it means that the fingerprint can distinguish between the two enantiomers, which is crucial for accurate QSAR modeling. if not, it means that the fingerprint is not sensitive to stereochemistry and may not be suitable for applications where stereochemical differences are important.
+</div>
+
 ```python
 
 # Calculate Tanimoto similarity for bit vector fingerprints
@@ -110,7 +117,7 @@ def dice(fp1, fp2):
     # Convert ExplicitBitVect to set of bits
     return DataStructs.DiceSimilarity(fp1, fp2)
 
-print("Similarity between R- and S-limonene:")
+print("Similarity between R- and S-thalidomide:")
 
 for key in ['Morgan', 'RDKit', 'MACCS']:
     sim = tanimoto(fps_R[key], fps_S[key])
@@ -125,7 +132,7 @@ print(f"MinHashed Atom-Pair Fingerprint Chiral similarity: {sim_jac:.3f}")
 So the output will be something like this:
 
 ```
-Similarity between R- and S-limonene:
+Similarity between R- and S-thalidomide:
 
 Morgan fingerprint similarity: 0.714
 
@@ -137,5 +144,10 @@ Topological Torsion fingerprint similarity: 1.000
 
 MinHashed Atom-Pair Fingerprint Chiral similarity: 0.879
 ```
+<div style="text-align: justify;">
+As the similarity scores show, the Morgan and MapChiral fingerprints are sensitive to stereochemical differences between the R- and S-enantiomers of thalidomide, while the RDKit, MACCS, and Topological Torsion fingerprints are not. Notably, the MapChiral fingerprint—designed specifically to encode stereochemistry—returns a similarity score of 0.879. This value is high, reflecting that the two molecules are structurally very similar, but crucially, it is less than 1.0, indicating that the fingerprint can still distinguish between the enantiomers.
 
-As we can see from the similarity scores, the Morgan fingerprint is able to capture some of the stereochemical differences between the two enantiomers, while the RDKit, MACCS and Topological Torsion fingerprints are not. However, the MapFps fingerprint, which is specifically designed to capture stereochemical information, shows a high similarity score of 0.879, indicating that it can effectively distinguish between the two enantiomers. This demonstrates the importance of using appropriate fingerprint types that can capture stereochemical differences for accurate QSAR modeling. and even without the need to generate 3D conformers, which can be computationally expensive and time-consuming.
+In contrast, the RDKit, MACCS, and Topological Torsion fingerprints all yield a perfect similarity score of 1.0, meaning they cannot differentiate between the two stereoisomers at all. The Morgan fingerprint (with chirality enabled) gives an intermediate similarity score (0.714), showing some sensitivity to stereochemistry, but not as much as MapChiral.
+
+These results highlight the importance of choosing fingerprints that encode stereochemical information when modeling tasks where chirality matters. Using fingerprints that ignore stereochemistry can lead to models that treat enantiomers as identical, potentially missing critical differences in biological activity or toxicity. Importantly, fingerprints like MapChiral can capture these differences directly from 2D representations, avoiding the need for computationally expensive 3D conformer
+</div>
