@@ -15,7 +15,7 @@ tags:
 
 ---
 
-Molecular docking is an essential technique in computational drug discovery, allowing us to predict how small molecules (ligands) interact with biological targets (proteins). With the rise of open-source tools, this field is more accessible than ever, even for undergraduate students. One such tool is **Smina**—a fork of AutoDock Vina with enhanced scoring and user features.
+Molecular docking is an essential technique in computational drug discovery, allowing us to predict how small molecules (ligands) interact with biological targets (proteins). With the rise of open-source tools, this field is more accessible than ever, even for undergraduate students. One such tool is **Smina** - a fork of AutoDock Vina with enhanced scoring and user features.
 
 In this tutorial, we’ll walk through a beginner-friendly workflow for running molecular docking experiments with Smina.
 
@@ -53,13 +53,13 @@ Molecular docking simulates the interaction between a receptor (usually a protei
 
 ### 1. Install Smina
 
-You can download pre-built binaries or build from source.  
-**Example (Linux):**
+You can download from [SourceForge](https://sourceforge.net/projects/smina/) or using conda:
+
 ```bash
-wget https://github.com/mwojcikowski/smina/releases/download/2020-12-17/smina.static -O smina
-chmod +x smina
+conda install -c conda-forge smina
 ```
-Place the executable in a directory included in your `$PATH`.
+
+If downloaded from SourceForge, place the executable in a directory included in your `$PATH`.
 
 ### 2. Install Support Tools
 
