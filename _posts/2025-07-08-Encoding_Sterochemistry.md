@@ -166,7 +166,7 @@ MACCS fingerprint similarity: 1.000
 
 <div style="text-align: justify;">
 
-These results highlight that <b> only Morgan (with chirality), Topological Torsion (with chirality), and MapChiral fingerprints</b> can distinguish between R- and S-enantiomers of thalidomide, and that their sensitivity depends on algorithm design and parameter choices (like radius and chirality settings). MapChiral, by encoding atom-pair and chiral information globally, is robust to the radius parameter; Morgan fingerprints exhibit partial discrimination; Topological Torsion with chirality can also distinguish enantiomers (possibly even more stringently than Morgan in this example).
+These results highlight that <i> Morgan (with chirality), Topological Torsion (with chirality), and MapChiral fingerprints</i> can distinguish between R- and S-enantiomers of thalidomide, and that their sensitivity depends on algorithm design and parameter choices (like radius and chirality settings). MapChiral, by encoding atom-pair and chiral information globally, is robust to the radius parameter; Morgan fingerprints exhibit partial discrimination; Topological Torsion with chirality can also distinguish enantiomers (possibly even more stringently than Morgan in this example).
 </div>
 
 # Scientific Takeaways and Best Practices
