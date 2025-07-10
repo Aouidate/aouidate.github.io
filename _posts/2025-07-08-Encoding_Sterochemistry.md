@@ -175,10 +175,10 @@ These results highlight that <i> Morgan (with chirality), Topological Torsion (w
 # Scientific takeaways and best practices
 
 <div style="text-align: justify;">
-- <b> Always use stereochemistry-sensitive fingerprints</b> (such as Morgan with <code>includeChirality=True</code>, Topological Torsion with chirality, or MapChiral) for ML/QSAR tasks involving chiral molecules.
-- <b>Be aware of the limitations of classical fingerprints</b>: RDKit and MACCS cannot distinguish between enantiomers and should not be used where stereochemistry matters.
-- <b>Adjust fingerprint parameters thoughtfully</b>: For Morgan fingerprints, changing the radius may or may not improve stereochemical sensitivity, depending on the molecular structure and context.
-- <b>MapChiral offers robust chiral discrimination</b>: It encodes atom-pair relationships and chirality globally, making it especially powerful for large, diverse datasets with many chiral centers.
+- <b> Always use stereochemistry-sensitive fingerprints</b> (such as Morgan with <code>includeChirality=True</code>, Topological Torsion with chirality, or MapChiral) for ML/QSAR tasks involving chiral molecules.<br>
+- <b>Be aware of the limitations of classical fingerprints</b>: RDKit and MACCS cannot distinguish between enantiomers and should not be used where stereochemistry matters.<br>
+- <b>Adjust fingerprint parameters thoughtfully</b>: For Morgan fingerprints, changing the radius may or may not improve stereochemical sensitivity, depending on the molecular structure and context.<br>
+- <b>MapChiral offers robust chiral discrimination</b>: It encodes atom-pair relationships and chirality globally, making it especially powerful for large, diverse datasets with many chiral centers.<br>
 - <b>You don’t always need 3D QSAR</b>: With the right 2D chiral-sensitive fingerprints, you can incorporate stereochemical information efficiently, avoiding the computational burden and uncertainty of 3D conformer generation.
 </div>
 
