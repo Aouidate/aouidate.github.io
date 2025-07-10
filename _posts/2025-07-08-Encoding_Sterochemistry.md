@@ -151,3 +151,26 @@ In contrast, the RDKit, MACCS, and Topological Torsion fingerprints all yield a 
 
 These results highlight the importance of choosing fingerprints that encode stereochemical information when modeling tasks where chirality matters. Using fingerprints that ignore stereochemistry can lead to models that treat enantiomers as identical, potentially missing critical differences in biological activity or toxicity. Importantly, fingerprints like MapChiral can capture these differences directly from 2D representations, avoiding the need for computationally expensive 3D conformer
 </div>
+
+## Interpreting Fingerprint Similarity Scores: What Do They Tell Us About Stereochemistry?
+
+| Fingerprint Type         | Similarity Score | Stereochemistry Sensitivity? |
+|-------------------------|------------------|-----------------------------|
+| Morgan (chiral)         | 0.714            | Partial                     |
+| RDKit                   | 1.000            | No                          |
+| MACCS                   | 1.000            | No                          |
+| Topological Torsion     | 1.000            | No                          |
+| MapChiral (MinHashed)   | 0.879            | Yes (High)                  |
+
+<div style="text-align: justify;">
+
+The results show that only the Morgan (with chirality enabled) and MapChiral fingerprints can distinguish between the R- and S-enantiomers of thalidomide. The MapChiral fingerprint, specifically designed to encode stereochemistry, produces a high similarity score (0.879), indicating the molecules are very similar but not identical—precisely capturing the subtle difference between enantiomers. In contrast, RDKit, MACCS, and Topological Torsion fingerprints all yield a perfect similarity of 1.0, meaning they cannot differentiate between the two forms.
+
+This distinction is crucial in cheminformatics and drug discovery. Many drugs exhibit enantioselectivity, where only one enantiomer is therapeutically active or safe (e.g., thalidomide, limonene). Using fingerprints that ignore stereochemistry can lead to models that overlook these differences, potentially resulting in inaccurate predictions of activity or toxicity [1,2].
+
+Therefore, for QSAR/QSPR modeling where chirality matters, it is essential to use fingerprints that encode stereochemical information, such as Morgan (with chirality enabled) or MapChiral. These approaches allow for accurate modeling of stereochemical effects without the computational burden of generating 3D conformers.
+</div>
+
+**References:**
+1. Todeschini, R., & Consonni, V. (2009). Molecular Descriptors for Chemoinformatics. Wiley-VCH.
+2. Riniker, S., & Landrum, G. A. (2013). Open-source platform for molecular informatics. J. Cheminformatics, 5, 26.
