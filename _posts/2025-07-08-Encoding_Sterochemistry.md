@@ -148,10 +148,10 @@ MACCS fingerprint similarity: 1.000
 ## What do these results mean? (Radius 1 vs. Radius 2)
 
 <div style="text-align: justify;">
-- <b>Morgan (chiral) fingerprint:</b> At radius 1, the similarity is 0.900, indicating moderate sensitivity to stereochemistry. At radius 2, the similarity drops significantly to 0.714, showing substantially improved ability to distinguish enantiomers as the fingerprint encompasses more extended molecular environments.<br>
-- <b>MapChiral fingerprint:</b> At radius 1, the similarity is 0.745 demonstrating strong sensitivity to chirality at a local level. At radius 2, the similarity rises to 0.879, reflecting the broader atom-pair relationships being encoded.<br>
-- <b>Topological Torsion fingerprint (with chirality):</b> The similarity is 0.635, showing that enabling chirality allows this fingerprint to distinguish enantiomers, though the value is even lower than both Morgan and MapChiral at radius 1.<br>
-- <b>RDKit and MACCS fingerprints:</b> Both return perfect similarity (1.000), confirming their inability to distinguish between enantiomers.<br>
+- </p><b>Morgan (chiral) fingerprint:</b> At radius 1, the similarity is 0.900, indicating moderate sensitivity to stereochemistry. At radius 2, the similarity drops significantly to 0.714, showing substantially improved ability to distinguish enantiomers as the fingerprint encompasses more extended molecular environments.<br></p>
+- <p><b>MapChiral fingerprint:</b> At radius 1, the similarity is 0.745 demonstrating strong sensitivity to chirality at a local level. At radius 2, the similarity rises to 0.879, reflecting the broader atom-pair relationships being encoded.<br></p>
+- <p><b>Topological Torsion fingerprint (with chirality):</b> The similarity is 0.635, showing that enabling chirality allows this fingerprint to distinguish enantiomers, though the value is even lower than both Morgan and MapChiral at radius 1.<br></p>
+- <p><b>RDKit and MACCS fingerprints:</b> Both return perfect similarity (1.000), confirming their inability to distinguish between enantiomers.<br></p>
 </div>
 
 # Interpreting the results: How well do fingerprints capture stereochemistry?
