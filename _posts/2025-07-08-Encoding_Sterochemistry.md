@@ -214,6 +214,14 @@ These results clearly show that <b>Morgan (with chirality), Topological Torsion 
 Incorporating stereochemistry into molecular representations is not just a technical nuance-it can be the difference between a safe, effective drug and a harmful one. As our results show, using advanced chiral-aware fingerprints like MapChiral, Topological Torsion (with chirality), or properly configured Morgan fingerprints is crucial for building predictive, interpretable models in cheminformatics and drug design. Whenever chirality matters, choose your molecular representation wisely and avoid the pitfalls of stereochemistry ignorance!. So, with easy and straightforward approaches to encoding chiral information, we can enhance the reliability of our models and ultimately improve drug discovery outcomes.
 </div>
 
+# Leave a Comment
+
+<div style="margin-top:2em; margin-bottom:2em;">
+  <p><b>Have thoughts, questions, or experiences to share?</b> Leave a comment below! Your feedback and discussion are welcome.</p>
+</div>
+
+{% include comments.html %}
+
 ---
 
 **References:**
