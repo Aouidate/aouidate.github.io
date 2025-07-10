@@ -143,13 +143,14 @@ RDKit fingerprint similarity: 1.000
 MACCS fingerprint similarity: 1.000
 ```
 
-<div style="text-align: justify;">
 ## What Do These Results Mean? (Radius 1 vs. Radius 2)
 
-- **Morgan (chiral) fingerprint:** At radius 1, the similarity is 0.900, indicating moderate sensitivity to stereochemistry. At radius 2, the similarity drops significantly to 0.714, showing substantially improved ability to distinguish enantiomers as the fingerprint encompasses more extended molecular environments.
-- **MapChiral fingerprint:** At radius 1, the similarity is 0.745—demonstrating strong sensitivity to chirality at a local level. At radius 2, the similarity rises to 0.879, reflecting the broader atom-pair relationships being encoded.
-- **Topological Torsion fingerprint (with chirality):** The similarity is 0.635, showing that enabling chirality allows this fingerprint to distinguish enantiomers, though the value is even lower than both Morgan and MapChiral at radius 1.
-- **RDKit and MACCS fingerprints:** Both return perfect similarity (1.000), confirming their inability to distinguish between enantiomers.
+<div style="text-align: justify;">
+- <b>Morgan (chiral) fingerprint:</b> At radius 1, the similarity is 0.900, indicating moderate sensitivity to stereochemistry. At radius 2, the similarity drops significantly to 0.714, showing substantially improved ability to distinguish enantiomers as the fingerprint encompasses more extended molecular environments.
+- <b>MapChiral fingerprint:</b> At radius 1, the similarity is 0.745—demonstrating strong sensitivity to chirality at a local level. At radius 2, the similarity rises to 0.879, reflecting the broader atom-pair relationships being encoded.
+- <b>Topological Torsion fingerprint (with chirality):</b> The similarity is 0.635, showing that enabling chirality allows this fingerprint to distinguish enantiomers, though the value is even lower than both Morgan and MapChiral at radius 1.
+- <b>RDKit and MACCS fingerprints:</b> Both return perfect similarity (1.000), confirming their inability to distinguish between enantiomers.
+</div>
 
 ### Fingerprint Similarity Table
 
@@ -163,18 +164,19 @@ MACCS fingerprint similarity: 1.000
 | RDKit                     | -      | 1.000            | No                                    |
 | MACCS                     | -      | 1.000            | No                                    |
 
-These results highlight that **only Morgan (with chirality), Topological Torsion (with chirality), and MapChiral fingerprints** can distinguish between R- and S-enantiomers of thalidomide, and that their sensitivity depends on algorithm design and parameter choices (like radius and chirality settings). MapChiral, by encoding atom-pair and chiral information globally, is robust to the radius parameter; Morgan fingerprints exhibit partial discrimination; Topological Torsion with chirality can also distinguish enantiomers (possibly even more stringently than Morgan in this example).
+<div style="text-align: justify;">
 
+These results highlight that <b> only Morgan (with chirality), Topological Torsion (with chirality), and MapChiral fingerprints</b> can distinguish between R- and S-enantiomers of thalidomide, and that their sensitivity depends on algorithm design and parameter choices (like radius and chirality settings). MapChiral, by encoding atom-pair and chiral information globally, is robust to the radius parameter; Morgan fingerprints exhibit partial discrimination; Topological Torsion with chirality can also distinguish enantiomers (possibly even more stringently than Morgan in this example).
 </div>
 
 # Scientific Takeaways and Best Practices
 
 <div style="text-align: justify;">
-- **Always use stereochemistry-sensitive fingerprints** (such as Morgan with <code>includeChirality=True</code>, Topological Torsion with chirality, or MapChiral) for ML/QSAR tasks involving chiral molecules.
-- **Be aware of the limitations of classical fingerprints**: RDKit and MACCS cannot distinguish between enantiomers and should not be used where stereochemistry matters.
-- **Adjust fingerprint parameters thoughtfully**: For Morgan fingerprints, changing the radius may or may not improve stereochemical sensitivity, depending on the molecular structure and context.
-- **MapChiral offers robust chiral discrimination**: It encodes atom-pair relationships and chirality globally, making it especially powerful for large, diverse datasets with many chiral centers.
-- **You don’t always need 3D QSAR**: With the right 2D chiral-sensitive fingerprints, you can incorporate stereochemical information efficiently, avoiding the computational burden and uncertainty of 3D conformer generation.
+- <b> Always use stereochemistry-sensitive fingerprints</b> (such as Morgan with <code>includeChirality=True</code>, Topological Torsion with chirality, or MapChiral) for ML/QSAR tasks involving chiral molecules.
+- <b>Be aware of the limitations of classical fingerprints</b>: RDKit and MACCS cannot distinguish between enantiomers and should not be used where stereochemistry matters.
+- <b>Adjust fingerprint parameters thoughtfully</b>: For Morgan fingerprints, changing the radius may or may not improve stereochemical sensitivity, depending on the molecular structure and context.
+- <b>MapChiral offers robust chiral discrimination</b>: It encodes atom-pair relationships and chirality globally, making it especially powerful for large, diverse datasets with many chiral centers.
+- <b>You don’t always need 3D QSAR</b>: With the right 2D chiral-sensitive fingerprints, you can incorporate stereochemical information efficiently, avoiding the computational burden and uncertainty of 3D conformer generation.
 </div>
 
 # Final Remarks
