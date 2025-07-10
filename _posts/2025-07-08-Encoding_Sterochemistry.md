@@ -3,11 +3,11 @@ title: "Beyond 2D: A Deep Dive into Molecular Fingerprints for Capturing Stereoc
 date: 2025-07-08
 permalink: /posts/2025/08/Encoding_Sterochemistry/
 tags:
-  - Cheminformatics
-  - Stereochemistry
-  - Drug Design
-  - Molecular Fingerprints
-  - QSAR
+    - Cheminformatics
+    - Stereochemistry
+    - Drug Design
+    - Molecular Fingerprints
+    - QSAR
 ---
 
 <div style="text-align: justify;">
@@ -24,19 +24,18 @@ tags:
 
 # The Real-world impact of stereochemistry
 
-<div style="text-align: justify;"><p>
-A classic example is <b>thalidomide</b>: its R-enantiomer is a sedative, while the S-enantiomer caused devastating birth defects, leading to one of the biggest tragedies in pharmaceutical history. Similarly, <b>limonene</b>’s R-enantiomer smells like orange, while the S-enantiomer has a lemon scent-subtle 3D differences, big real-world consequences.</p>
-</div>
-<div style="text-align: center;">
-<p><b> <i>A metaphor:</b> imagine giving 30 students a key to their classroom. Fifteen keys are exact copies (R-enantiomers), and the other fifteen are mirror images (S-enantiomers). Only the correct copies open the classroom door; the mirror-image keys might fit somewhere else, possibly with unintended outcomes.</i></p>
-This perfectly illustrates why distinguishing between stereoisomers is crucial in cheminformatics and drug design.
+<div style="text-align: justify;">
+<p>A classic example is thalidomide: its R-enantiomer is a sedative, while the S-enantiomer caused devastating birth defects, leading to one of the biggest tragedies in pharmaceutical history. Similarly, limonene's R-enantiomer smells like orange, while the S-enantiomer has a lemon scent-subtle 3D differences, big real-world consequences.</p>
 </div>
 
+<div style="text-align: center;">
+<p><i>A metaphor: imagine giving 30 students a key to their classroom. Fifteen keys are exact copies (R-enantiomers), and the other fifteen are mirror images (S-enantiomers). Only the correct copies open the classroom door; the mirror-image keys might fit somewhere else, possibly with unintended outcomes.</i></p>
+<p>This perfectly illustrates why distinguishing between stereoisomers is crucial in cheminformatics and drug design.</p>
+</div>
 
 <div style="text-align: center;">
 <img src="/images/Encoding_Stereochemistry/thalidomide.png" alt="Thalidomide enantiomers" width="600" height="400" class="img-fluid rounded mx-auto d-block mb-4" loading="lazy" />
 </div>
-
 
 # The Challenge: Representing stereochemistry for ML
 
