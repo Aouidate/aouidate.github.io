@@ -19,17 +19,19 @@ Encoding stereochemistry in molecular representations is critical for building r
 <div style="text-align: justify;">
 QSAR/QSPR (Quantitative Structure-Activity/Property Relationship) modeling is a computational framework for predicting the biological effects or properties of molecules based on their chemical structure. By correlating molecular features (descriptors or fingerprints) with experimental outcomes, QSAR accelerates drug discovery and toxicological screening, reducing the need for costly experiments. According to OECD guidelines, reliable QSAR models are essential tools for regulatory and industrial applications.
 
-But not all molecular features are created equal—stereochemistry, the 3D arrangement of atoms, can have a dramatic impact on biological activity. Different stereoisomers (such as enantiomers or diastereomers) often bind to biological targets with different affinities, leading to large variations in drug efficacy, safety, or even toxicity.
+But not all molecular features are created equal-stereochemistry, the 3D arrangement of atoms, can have a dramatic impact on biological activity. Different stereoisomers (such as enantiomers or diastereomers) often bind to biological targets with different affinities, leading to large variations in drug efficacy, safety, or even toxicity.
 </div>
 
 # The Real-World Impact of Stereochemistry
 
 <div style="text-align: justify;">
-A classic example is <b>thalidomide</b>: its R-enantiomer is a sedative, while the S-enantiomer caused devastating birth defects, leading to one of the biggest tragedies in pharmaceutical history. Similarly, <b>limonene</b>’s R-enantiomer smells like orange, while the S-enantiomer has a lemon scent—subtle 3D differences, big real-world consequences.
-
+A classic example is <b>thalidomide</b>: its R-enantiomer is a sedative, while the S-enantiomer caused devastating birth defects, leading to one of the biggest tragedies in pharmaceutical history. Similarly, <b>limonene</b>’s R-enantiomer smells like orange, while the S-enantiomer has a lemon scent-subtle 3D differences, big real-world consequences.
+<div style="text-align: center;">
 A metaphor: imagine giving 30 students a key to their classroom. Fifteen keys are exact copies (R-enantiomers), and the other fifteen are mirror images (S-enantiomers). Only the correct copies open the classroom door; the mirror-image keys might fit somewhere else, possibly with unintended outcomes.
 
 This perfectly illustrates why distinguishing between stereoisomers is crucial in cheminformatics and drug design.
+</div>
+</div>
 
 <div style="text-align: center;">
 <img src="/images/Encoding_Stereochemistry/thalidomide.png" alt="Thalidomide enantiomers" width="600" height="400" class="img-fluid rounded mx-auto d-block mb-4" loading="lazy" />
@@ -48,13 +50,14 @@ A practical and scalable solution is to use 2D fingerprints that encode stereoch
 
 <div style="text-align: justify;">
 To test different fingerprints, we compared the R- and S-enantiomers of thalidomide using RDKit and the <code>mapchiral</code> library, generating several types of fingerprints:
-
+</div>
 - **Morgan (ECFP) with chirality enabled (radius 1 and 2)**
 - **RDKit fingerprint**
 - **MACCS keys**
 - **Topological Torsion** (with <code>includeChirality=True</code>)
 - **MapChiral (MinHashed Atom-Pair Chiral)**
 
+<div style="text-align: justify;">
 We then calculated the similarity between the fingerprints of the two enantiomers at different radii for Morgan and MapChiral. (Note: Topological Torsion does not use a radius parameter.) If a fingerprint is sensitive to stereochemistry, the similarity between R- and S-thalidomide should be less than 1.0.
 </div>
 
