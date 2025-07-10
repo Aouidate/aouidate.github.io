@@ -157,7 +157,7 @@ MACCS fingerprint similarity: 1.000
 | Fingerprint Type           | Radius | Similarity Score | Stereochemistry Sensitivity?          |
 |---------------------------|--------|------------------|---------------------------------------|
 | Morgan (chiral)           | 1      | 0.900            | Partial                               |
-| Morgan (chiral)           | 2      | 0.714            | Partial                               |
+| Morgan (chiral)           | 2      | 0.714            | High (captures extended chirality)                             |
 | MapChiral (MinHashed)     | 1      | 0.745            | High (captures global chirality)      |
 | MapChiral (MinHashed)     | 2      | 0.879            | High (radius-dependent)               |
 | Topological Torsion       | -      | 0.635            | Yes (with chirality enabled)          |
