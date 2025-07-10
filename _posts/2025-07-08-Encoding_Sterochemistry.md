@@ -151,10 +151,10 @@ MACCS fingerprint similarity: 1.000
 - <b>Morgan (chiral) fingerprint:</b> At radius 1, the similarity is 0.900, indicating moderate sensitivity to stereochemistry. At radius 2, the similarity drops significantly to 0.714, showing substantially improved ability to distinguish enantiomers as the fingerprint encompasses more extended molecular environments.<br>
 - <b>MapChiral fingerprint:</b> At radius 1, the similarity is 0.745 demonstrating strong sensitivity to chirality at a local level. At radius 2, the similarity rises to 0.879, reflecting the broader atom-pair relationships being encoded.<br>
 - <b>Topological Torsion fingerprint (with chirality):</b> The similarity is 0.635, showing that enabling chirality allows this fingerprint to distinguish enantiomers, though the value is even lower than both Morgan and MapChiral at radius 1.<br>
-- <b>RDKit and MACCS fingerprints:</b> Both return perfect similarity (1.000), confirming their inability to distinguish between enantiomers.
+- <b>RDKit and MACCS fingerprints:</b> Both return perfect similarity (1.000), confirming their inability to distinguish between enantiomers.<br>
 </div>
 
-# Interpreting the Results: How Well Do Fingerprints Capture Stereochemistry?
+# Interpreting the results: How well do fingerprints capture stereochemistry?
 
 <div style="text-align: justify;">
 The table below summarizes how each fingerprint distinguishes between the R- and S-enantiomers of thalidomide:
@@ -185,7 +185,7 @@ The table below summarizes how each fingerprint distinguishes between the R- and
 These results clearly show that <b>Morgan (with chirality), Topological Torsion (with chirality), and MapChiral fingerprints</b> can distinguish between R- and S-enantiomers of thalidomide, while classical RDKit and MACCS fingerprints cannot. The sensitivity of each fingerprint depends on its algorithm and parameters:
 </p>
 <ul>
-<li><b>MapChiral</b> encodes atom-pair and chiral information globally, making it robust to the radius parameter and highly effective at distinguishing enantiomers—even when their overall structures are very similar.</li>
+<li><b>MapChiral</b> encodes atom-pair and chiral information globally, making it robust to the radius parameter and highly effective at distinguishing enantiomers, even when their overall structures are very similar.</li>
 <li><b>Morgan (chiral)</b> fingerprints show improved discrimination as the radius increases, capturing more extended chiral environments.</li>
 <li><b>Topological Torsion (with chirality)</b> also distinguishes enantiomers, sometimes even more stringently than Morgan in this example.</li>
 <li><b>RDKit and MACCS</b> fingerprints return perfect similarity (1.000), confirming their inability to capture stereochemical differences.</li>
@@ -194,7 +194,7 @@ These results clearly show that <b>Morgan (with chirality), Topological Torsion 
 
 <hr/>
 
-# Scientific Takeaways and Best Practices
+# Scientific takeaways and best practices
 
 <div style="text-align: justify;">
 <ul>
@@ -208,10 +208,10 @@ These results clearly show that <b>Morgan (with chirality), Topological Torsion 
 
 <hr/>
 
-# Final Remarks
+# Final remarks
 
 <div style="text-align: justify;">
-Incorporating stereochemistry into molecular representations is not just a technical nuance—it can be the difference between a safe, effective drug and a harmful one. As our results show, using advanced chiral-aware fingerprints like MapChiral, Topological Torsion (with chirality), or properly configured Morgan fingerprints is crucial for building predictive, interpretable models in cheminformatics and drug design. Whenever chirality matters, choose your molecular representation wisely!
+Incorporating stereochemistry into molecular representations is not just a technical nuance-it can be the difference between a safe, effective drug and a harmful one. As our results show, using advanced chiral-aware fingerprints like MapChiral, Topological Torsion (with chirality), or properly configured Morgan fingerprints is crucial for building predictive, interpretable models in cheminformatics and drug design. Whenever chirality matters, choose your molecular representation wisely and avoid the pitfalls of stereochemistry ignorance!. So, with easy and straightforward approaches to encoding chiral information, we can enhance the reliability of our models and ultimately improve drug discovery outcomes.
 </div>
 
 ---
