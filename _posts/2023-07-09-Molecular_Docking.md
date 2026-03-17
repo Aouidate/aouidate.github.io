@@ -1,7 +1,7 @@
 ---
 title: "A Beginner’s Guide to Molecular Docking with Smina"
-date: 2025-07-09
-permalink: /posts/2025/08/Molecular_Docking/
+date: 2023-07-09
+permalink: /posts/2023/07/Molecular_Docking/
 tags:
   - molecular docking
   - smina
@@ -9,9 +9,9 @@ tags:
 ---
 
 **A Beginner’s Guide to Molecular Docking with Smina**  
-*by Aouidate*  
+_by Aouidate_
 
-*Originally on Medium : [Medium Article](https://medium.com/loops-strands/a-beginners-guide-to-molecular-docking-with-smina-e1e4360950c2)*
+_Originally on Medium : [Medium Article](https://medium.com/loops-strands/a-beginners-guide-to-molecular-docking-with-smina-e1e4360950c2)_
 
 ---
 
@@ -133,4 +133,4 @@ Set the binding site (center and size) based on your protein structure (e.g., us
 
 ---
 
-*Happy Docking! If you have questions or want to share your results, feel free to comment below or reach out.*
+_Happy Docking! If you have questions or want to share your results, feel free to comment below or reach out._
