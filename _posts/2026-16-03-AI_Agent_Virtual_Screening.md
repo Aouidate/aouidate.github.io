@@ -1,7 +1,6 @@
 ---
 title: "An AI Agent for Virtual Screening with Smina and Ollama"
 date: 2026-03-16
-author: "Adnane Aouidate"
 permalink: /posts/2026/03/AI_Agent_Virtual_Screening/
 tags:
   - Cheminformatics
