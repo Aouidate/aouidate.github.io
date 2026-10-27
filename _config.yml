@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Adnane's Homepage"
 title_separator          : "-"
 name                     : &name "Adnane"
-description              : &description "personal description"
+description              : &description "Computational chemist and cheminformatician specializing in AI, molecular modeling, drug discovery, and scientific software."
 url                      : https://aouidate.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Aouidate/aouidate.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile1.png"
   name             : "Adnane Aouidate"
   pronouns         : # example: "she/her"  
-  bio              : "Cheminformatics, data science, and AI applied to chemistry"
-  location         : "Morocco-France-UK"
-  employer         : "UJICZ"
+  bio              : "Computational chemistry, cheminformatics, and AI for drug discovery"
+  location         : "Morocco · France · UK"
+  employer         : "Ibn Zohr University"
   uri              : # URL
   email            : "a.aouidatee@uiz.ac.ma" 
 
@@ -53,7 +53,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : 
-  facebook         : "DrAouidate"
+  facebook         :
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -69,7 +69,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : 
-  twitter          : "AdnaneAouidate"
+  twitter          :
   vine             : 
   weibo            : 
   wikipedia        :
@@ -139,7 +139,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : *description # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

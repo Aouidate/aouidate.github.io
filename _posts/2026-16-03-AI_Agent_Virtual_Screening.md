@@ -16,7 +16,7 @@ tags:
 
 This tutorial demonstrates how to build an **AI Agent for Virtual Screening** using Ollama with local LLMs. The agent acts as a molecular docking expert that can autonomously perform virtual screening tasks using natural language commands.
 
-## Tutorial: ADN_T018_AI_Agent_Virtual_Screening_with_Smina.ipynb
+## Tutorial: [ADN_T018_AI_Agent_Virtual_Screening_with_Smina.ipynb]()
 
 ### What You'll Learn
 

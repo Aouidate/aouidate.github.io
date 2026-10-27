@@ -1,41 +1,51 @@
 ---
 permalink: /
-title: "Welcome to My Cheminformatics & Computational Chemistry Blog"
+title: "Computational chemist building AI-powered tools for drug discovery"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-# 👨🏽‍💻 About Me
+<div class="home-hero">
+  <p class="home-kicker">CHEMINFORMATICS · AI · MOLECULAR DESIGN</p>
+  <h1>Computational chemistry for better drug discovery.</h1>
+  <p class="home-lede">I develop cheminformatics workflows, machine-learning models, and accessible scientific software for molecular design, virtual screening, and ADMET prediction.</p>
+  <div class="home-actions">
+    <a class="btn btn--primary" href="{{ '/portfolio/' | relative_url }}">Explore projects</a>
+    <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">View my CV</a>
+  </div>
+</div>
 
-Hi, I'm **Adnane Aouidate**, a computational chemist and cheminformatician passionate about leveraging data science, machine learning, and artificial intelligence to advance drug discovery.
+## What I work on
 
-### 🔬 Current Focus  
-I’m actively working on cheminformatics, deep learning, machine learning, and data science to develop innovative solutions for drug discovery and molecular design.
+My work connects chemistry, data science, and software engineering to make computational methods more useful in real research settings.
 
-### 🌱 Learning Journey  
-I’m currently expanding my skills in web development to build and deploy cheminformatics applications, making computational tools more accessible to researchers worldwide.
+<div class="home-grid">
+  <div class="home-card"><span class="home-card__icon">01</span><h3>Cheminformatics</h3><p>RDKit-based molecular representations, chemical databases, similarity searching, and reproducible data workflows.</p></div>
+  <div class="home-card"><span class="home-card__icon">02</span><h3>AI for drug discovery</h3><p>QSAR, deep learning, ADMET prediction, and AI-assisted approaches to explore chemical space.</p></div>
+  <div class="home-card"><span class="home-card__icon">03</span><h3>Molecular modeling</h3><p>Molecular docking, virtual screening, molecular dynamics, and structure-based drug design.</p></div>
+</div>
 
-### 🤝 Collaboration Interests  
-I’m open to collaborating on scientific research projects focused on discovering new molecules and advancing computational methods. Let’s connect!
+## Featured work
 
-### 🚀 Projects & Blog  
-This blog is where I share my latest insights, tutorials, and updates related to cheminformatics, computational chemistry, and machine learning.  
-You can also explore my personal Streamlit multi-web apps for cheminformatics [here](https://chemoinfo.streamlit.app/) and my [GitHub](https://github.com/Aouidate)
+<div class="home-projects">
+  <article class="home-project"><p class="home-project__eyebrow">WEB APPLICATIONS</p><h3>Chemoinformatics toolkit</h3><p>A collection of browser-based tools for molecular analysis, ADME testing, drug-likeness filters, and chemical data exploration.</p><a href="https://chemoinfo.streamlit.app/">Open the toolkit →</a></article>
+  <article class="home-project"><p class="home-project__eyebrow">EDUCATION &amp; OPEN SCIENCE</p><h3>Chemoinformatics tutorials</h3><p>Practical notebooks and examples for learning cheminformatics, machine learning, and molecular modeling.</p><a href="https://github.com/Aouidate/Chemoinformatics-tutos">Browse the tutorials →</a></article>
+  <article class="home-project"><p class="home-project__eyebrow">RESEARCH SOFTWARE</p><h3>Open-source experiments</h3><p>Explore my GitHub work across RDKit, Streamlit, Django, docking, QSAR, and AI-assisted drug discovery.</p><a href="https://github.com/Aouidate">View GitHub →</a></article>
+</div>
 
-### 💬 Expertise  
-Feel free to ask me anything about computational chemistry, cheminformatics, or computer-aided drug discovery.
+## Latest writing
 
-### 📫 Contact  
-Reach me on Facebook: [Adnane Aouidate](https://www.facebook.com/AdnaneAouidate)
+{% assign recent_posts = site.posts | where_exp: "post", "post.date <= site.time" | sort: "date" | reverse %}
+<div class="home-posts">
+{% for post in recent_posts limit:3 %}
+  <a class="home-post" href="{{ post.url | relative_url }}"><span>{{ post.date | date: "%B %Y" }}</span><strong>{{ post.title }}</strong></a>
+{% endfor %}
+</div>
 
-### 📚 Publications  
-Check out my scientific publications on Google Scholar: [Adnane Aouidate](https://scholar.google.com/citations?user=nzQ-UzAAAAAJ)
+## Let’s collaborate
 
-### 😄 Pronouns  
-He/His
+I’m interested in research and software projects at the intersection of computational chemistry, machine learning, and drug discovery.
 
-### ⚡ Fun Fact  
-I hold a Ph.D. in Chemistry and have co-authored over 30 publications in the field.
-
+<a class="btn btn--primary" href="mailto:{{ site.author.email }}">Get in touch</a>

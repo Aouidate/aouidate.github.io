@@ -8,7 +8,13 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Google scholar"
+  - title: "Projects"
+    url: /portfolio/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Google Scholar"
     url: https://scholar.google.com/citations?user=nzQ-UzAAAAAJ&hl=en&oi=ao
 
   - title: "Talks"
@@ -23,7 +29,7 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
     
   - title: "CV"
